@@ -2,11 +2,12 @@ name: deploy_frontend
 # Deploys when push is made from frontend folder
 
 on:
-  push:
-    # branches:
-    #  - "master"
-    # paths:
-    #   - "frontend"
+  push:workflow commit
+
+  # branches:
+  #  - "master"
+  # paths:
+  #   - "frontend"
 
 jobs:
   build:
